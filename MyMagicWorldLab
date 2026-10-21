@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>My Magic Word Lab</title>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <style>
+            body{background:lightyellow;}
+            h1,h3 {color:darkorange;}
+            .box{background:white; color:darkorange;}
+        </style>
+
+    </head>
+    <body>
+        <div class="container py-4">
+            <h1 class="mb-1">my magic word lab</h1>
+            <p class="text-muted mb-4">discover types, switch them, find and swap words, the catchy sneaky errors!</p> 
+            <!--TOPIC 1: typeof -->
+            <div class="card mb-4"><div class="card-body">
+                <h3 class="card title">what type is it </h3>
+                <button class="btn btn-warning" onclick="checkTypes()">reveal the types!</button>
+                <div id="typeResult" class="box p-3 mt-3 rounded">press the buttons to reveal the secret types</div>
+            </div>
+            </div>
+        </div>
+        <!--TOPIC 2: string() and number()-->
+        <div class="card mb-4">
+            <div class="card-body">
+                <h3 class="card title">switch the type </h3>
+                <input id="numIn"  class="form-control mb-2" placeholder="type any number here (try:42)">
+                <button class="btn btn-warning mr-2" onclick="toStr()">turn into types</button>
+                <button class="btn btn-warning" onclick="toNum()">turn into numbers </button>
+                <div id="convResult" class="box p-3 mt-3 rounded">type a number above then press a button! </div>
+            </div>
+        </div>
+        </div>
+        <!--TOPIC 3: typeof -->
+        <div class="card mb-4">
+            <div class="card-body">
+                <h3 class="card title">switch the type </h3>
+                <button class="btn btn-warning" onclick="checkTypes()">reveal the types!</button>
+                <div id="typeResult" class="box p-3 mt-3 rounded">press the buttons to reveal the secret types</div>
+            </div>
+        </div>
+        </div>
+        <!--TOPIC 4: typeof -->
+        <div class="card mb-4">
+            <div class="card-body">
+                <h3 class="card title">switch the type </h3>
+                <button class="btn btn-warning" onclick="checkTypes()">reveal the types!</button>
+                <div id="typeResult" class="box p-3 mt-3 rounded">press the buttons to reveal the secret types</div>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>
